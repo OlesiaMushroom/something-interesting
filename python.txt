@@ -1,0 +1,18 @@
+git clone
+git pull
+
+ls-lha
+
+Anaconda
+pushd
+jupyter notebook
+
+
+a = input("Какова длина первой стороны?")
+a = int(a)
+b = input("Какова длина второй стороны?")
+b = int(b)
+l = input("Каков угол между сторонами треугольника (ответ дайте в градусах)?")
+l = int(l)
+c = a^2+b^2 - 2*a*b*cos(l)
+print (c)
